@@ -9,6 +9,11 @@ class StudentsController < ApplicationController
     @student= Student.find(params[:id])
   end
 
+
+  def activate_student_path
+
+  end
+
   private
 
     def set_student
