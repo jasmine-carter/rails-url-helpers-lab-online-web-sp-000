@@ -18,6 +18,7 @@ class StudentsController < ApplicationController
       @student.active = false
       @student.save
     end
+    show
   end
 
   private
